@@ -10,10 +10,9 @@ _**Inspired by how biological memory actually works.**_
 ## What is this?
 The hippocampus is the brain region that transfers short-term memories into long-term storage during sleep. What you experience during the day gets consolidated overnight: redundant details drop away, key facts get filed into stable memory.
 
-This system works the same way. Each session is short-term memory. When you trigger sleep mode, Claude consolidates that session into the right long-term files — routing facts, ticking off actions, archiving what's stale. Nothing is rewritten. Nothing is lost. 
+This system works the same way. Each session is short-term memory. When you trigger sleep mode, Claude consolidates that session into the right long-term files → routing facts, ticking off actions, archiving what's stale. Nothing is rewritten. Nothing is lost. 
 
 The whole architecture is built to optimise for token savings (selective loading), and long-term memory. 
-
 
 ## Core principles
 - One source of truth — critical data lives in exactly one file. No duplication, no drift.
@@ -28,5 +27,11 @@ This is a .md file system — no code, no dependencies.
 - Add all files to your Claude Project context (cowork)
 - CLAUDE.md is your entry point — always loaded
 
+## Usage
+Tell Claude 'sleep mode' to trigger memory consolidation. Triggering sleep mode is recommended after each session or after an important event.
+
 ## Status
 v1.0 — first release. This architecture will evolve. Forks and contributions are welcome.
+
+## Disclaimer
+This system helps to structures context but it doesn't guarantee Claude's outputs. The author is not responsible for any errors or decisions made by Claude or any systems. Provided as-is, without warranty. Always double check critical information. And backup your data!
